@@ -53,7 +53,7 @@ if __name__ == '__main__':
         print('%d : %d'%(k, v))
         keys.append(k) 
         values.append(v)
-    print(keys, values)
+    
     plot.plot(keys, values)
     plot.xlabel('status')
     plot.ylabel('statistics')
